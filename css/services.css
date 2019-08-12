@@ -1,0 +1,256 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	/* list-style: none; */
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+    margin:20px;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+nav{
+	display:flex;
+	text-align:center;
+	justify-content:space-around;
+	padding:25px 25px 50px 25px;
+	width:100%;
+	/* word-spacing:50px; */
+	/* background-color:#708090; */
+	/* position:absolute; */
+
+}
+
+nav a{
+padding: 0px 20px 0px 20px;
+text-decoration:none;
+color:gray
+}
+
+nav a:visited{
+    color:gray;
+}
+
+.services-header-img{
+    width:100%;
+}
+
+.header{
+padding:50px;
+border-bottom:1px solid black;
+}
+
+h1{
+    font-size:32px;
+}
+
+.group1 {
+display:flex;
+padding: 50px;
+flex-wrap:wrap;
+justify-content:space-evenly;
+align-content: space-between;
+border-bottom:3px solid black;
+}
+
+p{
+text-align:center;
+padding:10px 25px 10px 25px;
+margin:15px;
+background-color:white;
+width:30%;
+border:1px solid black;
+border-radius: 5px;
+font-size:12px;
+}
+
+.design{
+width:40%;
+padding:25px;
+background-color:#DCDCDC;
+border:1px solid black;
+margin:10px;
+}
+
+.ux{
+    width:40%;
+    padding:25px;
+    background-color:#DCDCDC;
+border:1px solid black;
+margin:10px;
+}
+
+.marketing{
+    width:40%;
+    padding:25px;
+    background-color:#DCDCDC;
+border:1px solid black;
+margin:10px;
+}
+
+.webdev{
+    width:40%;
+    padding:25px;
+    background-color:#DCDCDC;
+border:1px solid black;
+margin:10px;
+}
+
+.iosdev{
+    width:40%;
+    padding:25px;
+    background-color:#DCDCDC;
+border:1px solid black;
+margin:10px;
+}
+
+.android{
+    width:40%;
+    padding:25px;
+    background-color:#DCDCDC;
+border:1px solid black;
+margin:10px;
+}
+
+.group2 {
+display:flex;
+justify-content:space-evenly;
+margin:50px;
+align-content:center;
+}
+
+.facts{
+width:40%;
+}
+ul{
+    list-style-type:square;
+    margin:20px;
+}
+
+.footer{
+display:flex;
+justify-content:center;
+}
+
+@media screen and (max-width: 850px) {
+    .nav{
+        display:flex;
+        text-align:center;
+        justify-content:space-evenly;
+        align-items:center;
+        /* padding:25px 25px 50px 25px; */
+        width:100%;
+        /* word-spacing:50px; */
+        flex-wrap:wrap;
+        flex-flow:column-reverse;
+    
+    }
+    .nav1{
+        width:100%;
+        margin:0;
+        font-size:11px;
+    }
+    .logo{
+        padding:25px;
+        text-align:center;
+    }
+    #topimage{
+        display:none;
+    }
+
+
+    @media screen and (max-width: 500px) {
+
+        .nav{
+            display:flex;
+            text-align:center;
+            justify-content:center;
+            align-items:center;
+            align-content:center;
+            padding:25px 25px 50px 25px;
+            width:100%;
+            /* word-spacing:50px; */
+            /* flex-wrap:wrap; */
+            flex-flow:column-reverse;
+            
+        }
+        .nav1{
+            width: 100%;    
+            display:flex;
+            flex-flow: column;
+            font-size:24px;
+           
+        }
+    .nav a{
+         border-bottom:1px solid gray;
+        padding:20px;
+    }
+    div.logo{
+        width:100%;
+        /* border-bottom:1px solid gray; */
+        padding-bottom:20px;
+    }
+    .group1{
+        display:flex;
+        flex-wrap:wrap;
+        flex-direction:column;
+        align-items:center;
+    }
+.design, .ux, .marketing, .webdev, .iosdev, .android {
+    width:100%;
+} 
+.botimg{
+    display:none;
+}
+
+    }
